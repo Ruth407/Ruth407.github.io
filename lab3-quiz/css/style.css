@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background-image: url("../img/quiz_bkg.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    max-width: 700px;
+    margin: 40px auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+h3 {
+    margin-top: 25px;
+    font-weight: bold;
+    color: #123456;
+}
+
+input[type="text"], select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1.1rem;
+}
+button {
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
