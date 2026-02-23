@@ -1,0 +1,56 @@
+body{
+    text-align:center;
+    background-image: url("../img/green_bkg.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+    color: black;
+    background-color: rgb(210, 240, 190,0.85) ;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-bottom: 4px solid rgb(255, 255, 255);
+}
+
+#main {
+    background-color:rgba(255, 255, 255, 0.9);
+    font-size: 1.7rem;    
+    padding: 20px;
+    max-width: 600px; 
+    font-weight: bold;
+    margin: 60px auto;   
+    border-radius: 20px;
+    background-size: cover;
+     border: 2px solid #d8e8d0;   
+}
+
+button {
+    padding: 10px 14px;
+    border-radius: 10px;
+    color: rgb(12, 52, 17);    
+    background-color: rgb(210, 240, 175); 
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease;   
+}
+
+#message {
+    margin-top: 15px;
+    min-height: 30px;
+    color: #2f4f3f;     
+}
+
+button:hover {
+  transform: scale(1.03);
+  background-color: #3a5f57; 
+}
+
+#wrongLetters {
+    color: red;                                  
+    font-size: 1.4rem;  
+    letter-spacing: 5px;                          
+}

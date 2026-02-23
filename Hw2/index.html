@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css" >
+    
+</head>
+<body>
+    <header>
+    <h1>Hangman!</h1>
+    <h2>Guess the hidden word one letter at a time</h2>
+    </header>
+    <br>
+
+    <div id="main">
+         <div>
+            <img id="hangmanImg" src="img/drawing1.png" width="300">
+        </div>
+        Enter a letter:
+        <input type="text" id="userInput" maxLength="1" size="5">
+        <button id="guessBtn">Guess</button>
+        <br>
+
+        <button id="resetBtn">Reset</button>
+
+        <div id="message"></div>
+
+        <div>
+            
+            <h2 id="wordDisplay">_ _ _ _</h2>
+        </div>
+        <div>Wrong Letters:
+            <span id="wrongLetters"></span>
+        </div> 
+        
+    </div>
+
+</body>
+</html>
